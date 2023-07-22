@@ -1,0 +1,40 @@
+#mobile{
+    display: flex;
+}
+#mob{
+    /* border: 1px solid black;
+    height: 450px;
+    width: 650px;
+  position: absolute; */
+  /* background: url(/HTML/myproject/image/mobile-removebg-preview.png); */
+ 
+}
+/* #mob>img{
+    position: absolute;
+    top: 0;
+    
+    left: 90px;
+    top: 150px;
+} */
+#mob>img{
+    margin-left: 150px;
+    position: absolute;
+    
+    left: 0px;
+}
+
+#para{
+    border: 1px solid black;
+    height: 450px;
+    width: 650px;
+    /* position: relative; */
+    margin-left: 150px;
+    margin-right: 100px;
+    background-color: aqua;
+  
+   top: 0;
+ 
+}
+#para:hover{
+    background-color: red;
+}

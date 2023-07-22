@@ -1,0 +1,128 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#login_container{
+    background: url(https://www.wallpapertip.com/wmimgs/41-417401_healthy-food-background-and-copy-space-healthy-food.jpg);
+    /* background-color: pink; */
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#loginbg{
+    display:inline-block;
+}
+/* #logincontent{
+    border: 1px solid black;
+    background-image: url(https://wallpapercave.com/wp/wp3095003.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 450px;
+    margin-left: 200px;
+    margin-top: 50px;
+} */
+#logincontent2{
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 700px;
+    width: 450px;
+    margin-left: 500px;
+ padding-left: 150px;
+    margin-top: 30px;
+    background-color: white;
+    
+}
+#logincontent2>h1{
+    /* text-align: center; */
+    margin-top: 50px;
+    margin-left: 0px;
+    
+    
+}
+/* #logincontent2>p{
+    margin-top: 50px;
+} */
+#email>p{
+    font-size: 23px;
+    margin-left: 0px;
+}
+#email input{
+    height: 30px;
+    width: 270px;
+}
+#password>p{
+    font-size: 23px;
+}
+#password  input{
+    height: 30px;
+    width: 270px;
+}
+#confirmpassword>p{
+    font-size: 23px;
+}
+#confirmpassword  input{
+    height: 30px;
+    width: 270px;
+}
+#btn{
+    margin-top: 30px;
+}
+#btn>button{
+    height: 40px;
+    width: 200px;
+}
+#signup{
+    display: flex;
+    margin-top: 20px;
+}
+a{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#socail span:nth-child(2){
+    color: blue;
+
+}
+#socail span:nth-child(3){
+    color: skyblue;
+    margin-left: 20px;
+}
+#socail span:nth-child(4){
+    color: palevioletred ;
+    margin-left: 20px;
+   
+}
+#socail span>a{
+    text-decoration: none;
+    color: blue;
+}
+#or>h3{
+   
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: 95px;
+}
+#or>h3::before{
+    content: '';
+    display: block;
+    width: 95px;
+    height: 2px;
+    background-color: black;
+    left: 645px;
+    top: 81%;
+    position: absolute;
+
+}
+#or>h3::after{
+    content: '';
+    display: block;
+    width: 95px;
+    height: 2px;
+    background-color: black;
+    right: 670px;
+    top: 81%;
+    position: absolute;
+
+}
